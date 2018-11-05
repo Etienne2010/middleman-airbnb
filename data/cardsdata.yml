@@ -1,0 +1,18 @@
+- name: 'Romain'
+  avatar_image: 'images/romain.jpeg'
+  city_image: 'images/card-brussels.jpeg'
+  city_name: 'Brussels'
+  name_label: "Romain's home"
+  caption: 'Cool stuff'
+- name: 'Anne'
+  avatar_image: 'images/anne.jpg'
+  city_image: 'images/card-london.jpeg'
+  city_name: 'London'
+  name_label: "Anne's home"
+  caption: 'Great stuff'
+- name: 'Seb'
+  avatar_image: 'images/seb.jpg'
+  city_image: 'images/card-paris.jpg'
+  city_name: 'Paris'
+  name_label: "Seb's home"
+  caption: 'Awesome stuff'

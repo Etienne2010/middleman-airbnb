@@ -1,0 +1,9 @@
+<ul class="list-inline text-center">
+  <% data.users.each do |user| %>
+    <li>
+      <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>

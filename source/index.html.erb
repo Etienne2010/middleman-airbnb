@@ -1,15 +1,22 @@
+
 ---
 title: Le Wagon - Middleman
 ---
+<!-- <div class="cards"> -->
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="cards">
+
+<% data.cardsdata.each do |card| %>
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= card.city_image %>')">
+    <div class="card-category"><%= card.city_name %></div>
+    <div class="card-description">
+      <h2><%= card.name_label %></h2>
+      <p><%= card.caption %></p>
+    </div>
+    <img class="card-user" src="<%= card.avatar_image %>">
+    <a class="card-link" href="#" ></a>
   </div>
+<% end %>
+
 </div>
+<!-- </div> -->
