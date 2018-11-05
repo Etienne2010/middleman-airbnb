@@ -1,0 +1,32 @@
+.datanform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roomdata {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.description {
+  flex: 0 0 auto;
+}
+
+.avatar {
+  flex: 1 0 auto;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.formdata {
+  width: 400px;
+}
+
+.form-side {
+  padding: 20px;
+  margin: 10px;
+}

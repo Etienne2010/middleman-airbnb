@@ -4,6 +4,8 @@ title: Le Wagon - Middleman
 ---
 <!-- <div class="cards"> -->
 
+<%= partial "layouts/banner" %>
+
 <div class="cards">
 
 <% data.cardsdata.each do |card| %>
@@ -13,8 +15,8 @@ title: Le Wagon - Middleman
       <h2><%= card.name_label %></h2>
       <p><%= card.caption %></p>
     </div>
-    <img class="card-user" src="<%= card.avatar_image %>">
-    <a class="card-link" href="#" ></a>
+    <%= image_tag "#{card.avatar_image}", class: "card-user" %>
+    <%= link_to "", "flats/#{card.name}.html", class: "card-link" %>
   </div>
 <% end %>
 
