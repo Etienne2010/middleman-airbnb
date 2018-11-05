@@ -6,16 +6,16 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-7cdf7a38.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title></title>
+    <link href="../stylesheets/application-7cdf7a38.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" id="logo" alt="Logo" />
+    <img src="../images/logo-acc9c0ec.png" id="logo" alt="Logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -54,25 +54,49 @@
   </div>
 </div>
 
-    <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/ChristyCism" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/ChristyCism" class="img-circle" alt="Christycism" />
-</a>          <h2>Christy Valette</h2>
-          <p>
-<a href="https://github.com/ChristyCism" target="_blank">              <i class="fab fa-github"></i> ChristyCism
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/Etienne2010" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Etienne2010" class="img-circle" alt="Etienne2010" />
-</a>          <h2>Etienne Lioret</h2>
-          <p>
-<a href="https://github.com/Etienne2010" target="_blank">              <i class="fab fa-github"></i> Etienne2010
-</a>          </p>
-        </li>
-    </ul>
+    
+<!-- Inject flat data in template -->
+<div class="banner" style="background-image: url('../images/card-brussels-ea40e9e5.jpeg'">
+  <p>Brussels</p>
+</div>
+
+<div class="datanform">
+  <div class="roomdata">
+    <div class="avatar">
+      <img src='../images/romain-a8a98a65.jpeg' alt="Avatar" class="avatar">
+      Seb
+    </div>
+    <div class="description">
+      <h1>Romain's home</h1>
+      <p>Cool stuff</p>
+    </div>
+  </div>
+  <div class="formdata">
+    <form action="">
+      <h5>Book this flat</h5>
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="form-side">
+            <input type="date" placeholder="" class="control-form">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="form-side">
+            <input type="date" placeholder="" class="control-form">
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="form-side">
+            <input type="number" placeholder="1" class="control-form">
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="form-side">
+            <input type="submit" class="btn btn-danger" value="Book it">
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
 </div>
 
